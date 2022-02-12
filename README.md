@@ -16,7 +16,7 @@ go get github.com/rovnyart/diversity
 $env: GOARCH='windows'
 $env: GOTARGET='amd64'
 
-go build github/rovnyart/diversity
+go build github/rovnyart/diversity -ldflags -H=windowsgui
 ```
 
 This will produce `diversity.exe` executable. In order to run it you need to place `config.yaml` file in the same directory. See `Config` section for more details.
@@ -34,6 +34,4 @@ schedule: 2h # Automatic wallpaper change schedule
 
 ## Usage
 
-Just run app and minimize it =). Also you can install it as a Windows Service to run in background. Please refer to `sc.exe` help to do it.
-
-Application also has an system tray icon with some sort of menu, where you can change current wallpaper or quit.
+Just run app =) Application has an system tray icon with some sort of menu, where you can change current wallpaper or quit.
