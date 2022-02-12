@@ -6,6 +6,10 @@ First of all you need to get an API token from Unsplash. Go to `https://unsplash
 
 ## Installation
 
+You can download pre-built Windows amd64 binary from the [releases](https://github.com/rovnyart/diversity/releases) section.
+
+Alternatively, you can build an app on your own:
+
 ```powershell
 go get github.com/rovnyart/diversity
 
