@@ -31,3 +31,9 @@ apikey: your-api-token-here # Your Unsplash API token
 scope: nature # Picture search query
 schedule: 2h # Automatic wallpaper change schedule
 ```
+
+## Usage
+
+Just run app and minimize it =). Also you can install it as a Windows Service to run in background. Please refer to `sc.exe` help to do it.
+
+Application also has an system tray icon with some sort of menu, where you can change current wallpaper or quit.
